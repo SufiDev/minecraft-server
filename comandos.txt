@@ -1,0 +1,4 @@
+// Instalar java
+apt search openjdk // buscar que versiones de openjdk hay disponibles
+sudo apt install openjdk-17-jre-headless // al ser un servidor no necesito la parte de gui -> instalar headless version
+export TERM=xterm-256color // change terminal type for putty because color issues
