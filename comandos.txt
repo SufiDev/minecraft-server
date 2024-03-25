@@ -1,4 +1,14 @@
-// Instalar java
+// Instalar java -- ubuntu
 apt search openjdk // buscar que versiones de openjdk hay disponibles
 sudo apt install openjdk-17-jre-headless // al ser un servidor no necesito la parte de gui -> instalar headless version
-export TERM=xterm-256color // change terminal type for putty because color issues
+
+// Instalar java -- oracle linux
+yum list jdk*
+sudo yum install jdk-17-headless.x86_64
+
+// Comprobar instalacion
+java --version
+
+// descomprimir zip -- oracle linux
+unzip <nombre_archivo>.zip
+
